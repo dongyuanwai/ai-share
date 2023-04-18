@@ -1,0 +1,26 @@
+{
+  "name": "ai-share",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.5",
+    "amfe-flexible": "^2.2.1",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.6",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "postcss-pxtorem": "^6.0.0",
+    "vite": "^2.9.9",
+    "vite-plugin-windicss": "^1.8.4",
+    "windicss": "^3.5.4"
+  }
+}
