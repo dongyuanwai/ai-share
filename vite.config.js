@@ -17,6 +17,7 @@ export default defineConfig({
 		proxy:{
 			'/api': {
 				target: 'https://openai3.xyz',
+				secure:false,
 				changeOrigin: true,
 				rewrite: (path) => path.replace(/^\/api/, '')
 			},

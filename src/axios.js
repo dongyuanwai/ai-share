@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const service = axios.create({
-    baseURL:"https://openai3.xyz"
+    baseURL:"/api"
 })
 
 export default service
